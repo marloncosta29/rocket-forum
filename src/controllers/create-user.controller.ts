@@ -8,7 +8,6 @@ import {
 } from '@nestjs/common'
 import { hash } from 'bcryptjs'
 import { ZodValidationPipe } from 'src/pipes/zod-validation'
-// biome-ignore lint/style/useImportType: <explanation>
 import { PrismaService } from 'src/prisma/db-prisma.service'
 import { z } from 'zod'
 

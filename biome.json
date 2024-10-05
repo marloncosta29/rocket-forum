@@ -24,7 +24,8 @@
     "enabled": true,
     "rules": {
       "recommended": true,
-      "a11y": { "useValidAnchor": "off" }
+      "a11y": { "useValidAnchor": "off" },
+      "style": { "useImportType": "off" }
     }
   },
   "files": {
