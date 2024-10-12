@@ -2,8 +2,8 @@ import { ExtractJwt, Strategy } from 'passport-jwt'
 import { PassportStrategy } from '@nestjs/passport'
 import { Injectable } from '@nestjs/common'
 import { ConfigService } from '@nestjs/config'
-import { Env } from 'src/env'
 import { z } from 'zod'
+import { Env } from '../env'
 
 const tokenSchema = z.object({
   sub: z.string().uuid(),
